@@ -3,33 +3,18 @@ body{
 	background:pink;
 	text-align:center;
 }
+
 h2{
 	text-shadow:2px 2px white;
 }
-@media(min-width:768px){
-	.container-experience{
-		display:flex;
-	}
-	.container-education{
-		display:flex;
-	}
-	.container-skills{
-			display:flex;
-			justify-content:space-between;	
-	}
-}
-.container-experience div, .container-education div, .container-skills div{
-	border:1px black solid;
-	padding:5px;
-}	
-.box-experience{
-	flex:1;
-}
-.box-education{
-	flex:1;
-}
-.box-skills{
-	flex-basis:30%;
+
+.show{
+	background:pink;
+	color:black;
 }
 
-
+.row{
+	margin-top:50;
+	min-height:50px;
+	justify-content:space-between;
+}
